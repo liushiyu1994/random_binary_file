@@ -1,7 +1,7 @@
 ######################### Common settings ################################
 
 # Number of files that need to generate.
-current_file_num = 200
+current_file_num = 300
 
 # Size of each file. Only the 'current_file_size' will be read, and its unit is byte.
 current_file_size_mib = 25  # Size unit is MiB

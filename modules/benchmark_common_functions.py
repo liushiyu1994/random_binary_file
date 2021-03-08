@@ -90,8 +90,8 @@ def benchmark_entry_function(config):
         print("[{}] Finish generator: {}".format(time_stamp(), generator_name))
     sorted_final_time_list = sorted(final_time_list, key=lambda x: x[3])
     text_output_file_name = "benchmark_result.csv"
-    benchmark_text_output(sorted_final_time_list, text_output_file_name, benchmark_file_output_folder)
+    benchmark_text_output(sorted_final_time_list, text_output_file_name, benchmark_output_folder)
     if plt is not None:
         figure_name = "benchmark_result.png"
-        benchmark_plotting(sorted_final_time_list, figure_name, benchmark_file_output_folder)
+        benchmark_plotting(sorted_final_time_list, figure_name, benchmark_output_folder)
         plt.show()

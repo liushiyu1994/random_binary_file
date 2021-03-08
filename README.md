@@ -19,7 +19,7 @@ Most methods just rely on basic python package. This requirement also mark speci
 | `itertools_and_struct`  | None |
 | `itertools_optimized`  | None |
 | `python_native_crypto`  | None |
-| `cryptography_package`  | `cryptography_package` |
+| `cryptography_package`  | `cryptography` |
 
 
 ## Usages
