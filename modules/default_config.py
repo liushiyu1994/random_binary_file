@@ -10,7 +10,7 @@ current_output_folder = "output_folder"
 
 benchmark_output_folder = "benchmark_output_folder"
 
-generator_name = "cryptography_package"
+generator_name = "os_urandom"
 
 parallel = False
 

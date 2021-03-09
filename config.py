@@ -18,7 +18,7 @@ current_output_folder = "output_folder"
 benchmark_output_folder = "benchmark_output_folder"
 
 # Method that used to generate random binary files.
-generator_name = "cryptography_package"
+generator_name = "os_urandom"
 
 # If any parallel method is utilized.
 parallel = False
